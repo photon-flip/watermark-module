@@ -47,10 +47,10 @@ This section documents installation instructions for this module.
 ## Customization
 
 The default instalation contains default webtrees watermar image and a sample photshop PSD template image as a basis for your own personalization.
-Simply modify and save with the file name and watermark.png of type .png
+Simply modify and saveas with the file name 'watermark.png' of type .png
 The size and position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4reposition-webtrees-watermark/MyWatermarkFactory.php'
-On line 50 change the numbers for $width and $height. These are a scale factor ie. .02 represents 20%.
-On line 69 change the position with key words: 'center', 'left', 'right', 'top', 'bottom'
+On line 50 '->resize($width * 0.2, $height * 0.2' change the values for $width and $height. These are a scale factor ie. .02 represents 20%.
+On line 69 'turn $image->insert($watermark, 'bottom-right');' change the position with key words: 'center', 'left', 'right', 'top', 'bottom'
 or combinations thereof, 'top-left' etc.
 
 <a name="persistant cache"></a>
