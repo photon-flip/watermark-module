@@ -45,6 +45,11 @@ This section documents installation instructions for this module.
    and find the module `Watermark Module`. Check if it has a tick for "Enabled".
 5. Finally, click SAVE, to complete the configuration.
 
+<a name="modification"></a>
+## Modification
+
+To-Do
+
 <a name="upgrade"></a>
 ## Upgrade
 
