@@ -43,10 +43,25 @@ This section documents installation instructions for this module.
    and find the module `Watermark Module`. Check if it has a tick for "Enabled".
 5. Finally, click SAVE, to complete the configuration.
 
-<a name="modification"></a>
-## Modification
+<a name="customization"></a>
+## Customization
 
-To-Do
+The default instalation contains default webtrees watermar image and a sample photshop PSD template image as a basis for your own personalization.
+Simply modify and save with the file name and watermark.png of type .png
+The size and position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4reposition-webtrees-watermark/MyWatermarkFactory.php'
+On line 50 change the numbers for $width and $height. These are a scale factor ie. .02 represents 20%.
+On line 69 change the position with key words: 'center', 'left', 'right', 'top', 'bottom'
+or combinations thereof, 'top-left' etc.
+
+<a name="persistant cache"></a>
+## Persistant Cache
+
+The final watermarked images are single combined images and are stores in the webtrees data/cache.
+After installing or updating the module or code, images can take some time to be used instead of those previously cached. 
+This can be sped up by clearing the data/cache.
+Go to: Control panel/Clean up data folder/cache and  click the bin icon.
+Some images may also be stored for a time in the Browswer cache and this may also need to be cleared if required.
+
 
 <a name="upgrade"></a>
 ## Upgrade
