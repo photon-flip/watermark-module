@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 ![webtrees major version](https://img.shields.io/badge/webtrees-v2.1.x-green)
-![Latest Release](https://img.shields.io/github/v/release/jpretired/jp-main-menu-manual)
+
 
 This [webtrees](https://www.webtrees.net/) custom module changes the default size and position of the webtrees watermark image.
 
@@ -40,7 +40,7 @@ This section documents installation instructions for this module.
 
 1. Download the [latest release](https://github.com/photon-flip/reposition-webtrees-watermark/releases).
 2. Unzip the package into your `webtrees/modules_v4` directory of your web server.
-3. Rename the folder to `watermark-module`. It's safe to overwrite the respective directory if it already exists.
+3. Rename the folder to `reposition-watermark-module`. It's safe to overwrite the respective directory if it already exists.
 4. Login to **webtrees** as administrator, go to <span class="pointer">Control Panel/Modules/</span>
    and find the module `Watermark Module`. Check if it has a tick for "Enabled".
 5. Finally, click SAVE, to complete the configuration.
@@ -53,7 +53,7 @@ To-Do
 <a name="upgrade"></a>
 ## Upgrade
 
-To update simply replace the `watermark-module`
+To update simply replace the `reposition-watermark-module`
 files with the new ones from the latest release.
 
 
