@@ -31,7 +31,7 @@ use Intervention\Image\Image;
  */
 class MyImageFactory extends ImageFactory
 { 
-    protected const WATERMARK_FILE = '/watermark-module/img/watermark.png';
+   protected const WATERMARK_FILE = '/reposition-webtrees-watermark/img/watermark.png';
     /**
      * Create a watermark image, perhaps specific to a media-file.
      *
