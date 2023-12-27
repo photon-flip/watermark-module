@@ -75,7 +75,7 @@ class WatermarkModule extends AbstractModule implements ModuleCustomInterface
      */
     public function customModuleSupportUrl(): string
     {
-        return 'https://fullerbennett.com/tree/fuller-bennett/contact?to=murrayj';
+        return 'https://github.com/photon-flip/reposition-webtrees-watermark';
     }
     
 
