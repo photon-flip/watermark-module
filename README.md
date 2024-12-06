@@ -67,7 +67,7 @@ Some images may also be stored for a time in the Browswer cache and this may als
 <a name="upgrade"></a>
 ## Upgrade
 
-To update simply replace the `reposition-watermark-module`
+To update simply replace the `watermark-module`
 files with the new ones from the latest release.
 
 
