@@ -4,7 +4,7 @@
 ![webtrees major version](https://img.shields.io/badge/webtrees-v2.1.x-green)
 
 
-This [webtrees](https://www.webtrees.net/) custom module changes the default size and position of the webtrees watermark image.
+This [webtrees](https://www.webtrees.net/) custom module changes the default position of the webtrees watermark image.
 
 ## Contents
 This Readme contains the following main sections
@@ -20,8 +20,8 @@ This Readme contains the following main sections
 <a name="description"></a>
 ## Description
 
-This custom module changes the default size and position of the watermark image. These can be altered to you needs with simple edits to the MyImageFactory code.
-This module was created with the generous help of Greg Roach [fisharebest](https://github.com/fisharebest/webtrees).
+This custom module changes the default position of the watermark image. This can be altered to you needs with simple edits to the MyImageFactory code.
+This module was created with the generous input from Greg Roach [fisharebest](https://github.com/fisharebest/webtrees).
 
 <a name="requirements"></a>
 ## Requirements
@@ -48,7 +48,7 @@ This section documents installation instructions for this module.
 
 The default instalation contains default webtrees watermark image, some sample images and a Photshop PSD template image as a basis for your own personalization.
 Simply modify and saveas with the file name 'watermark.png' of type .png
-The position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4reposition-webtrees-watermark/MyWatermarkFactory.php'
+The position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4/reposition-webtrees-watermark/MyWatermarkFactory.php'
 On line 47 'return $image->place(element: $watermark, position: 'bottom');' change the position with key words: 'center' or 'top' or, 'bottom'
 
 
