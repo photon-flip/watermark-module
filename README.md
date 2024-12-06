@@ -26,10 +26,10 @@ This module was created with the generous help of Greg Roach [fisharebest](https
 <a name="requirements"></a>
 ## Requirements
 
-This module requires **webtrees** version 2.1 or later.
+This module requires **webtrees** version 2.2 or later.
 This module has the same requirements as [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
-This module was tested with **webtrees** 2.1.17 version and most available themes.
+This module was tested with **webtrees** 2.2.1 version and most available themes.
 
 <a name="installation"></a>
 ## Installation
@@ -48,10 +48,9 @@ This section documents installation instructions for this module.
 
 The default instalation contains default webtrees watermar image and a sample photshop PSD template image as a basis for your own personalization.
 Simply modify and saveas with the file name 'watermark.png' of type .png
-The size and position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4reposition-webtrees-watermark/MyWatermarkFactory.php'
-On line 50 '->resize($width * 0.2, $height * 0.2' change the values for $width and $height. These are a scale factor ie. .02 represents 20%.
-On line 69 'turn $image->insert($watermark, 'bottom-right');' change the position with key words: 'center', 'left', 'right', 'top', 'bottom'
-or combinations thereof, 'top-left' etc.
+The position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4reposition-webtrees-watermark/MyWatermarkFactory.php'
+On line 47 'return $image->place(element: $watermark, position: 'bottom');' change the position with key words: 'center' or 'top' or, 'bottom'
+
 
 <a name="persistant cache"></a>
 ## Persistant Cache
