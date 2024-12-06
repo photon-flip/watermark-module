@@ -40,7 +40,7 @@ This section documents installation instructions for this module.
 
 1. Download the [latest release](https://github.com/photon-flip/reposition-webtrees-watermark/releases).
 2. Unzip the package into your `webtrees/modules_v4` directory of your web server.
-3. Rename the folder to `webtrees-watermark`. It's safe to overwrite the respective directory if it already exists.
+3. Rename the folder to `watermark-module`. It's safe to overwrite the respective directory if it already exists.
 4. Login to **webtrees** as administrator, go to <span class="pointer">Control Panel/Modules/</span>
    and find the module `Watermark Module`. Check if it has a tick for "Enabled".
 5. Finally, click SAVE, to complete the configuration.
