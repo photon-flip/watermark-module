@@ -26,7 +26,7 @@ use Psr\Http\Message\ServerRequestInterface;
 /**
  * Class WatermarkModule * 
  */
-class WatermarkModule extends AbstractModule implements ModuleCustomInterface, ModuleConfigInterface
+class WatermarkModule extends AbstractModule implements ModuleCustomInterface
 {
     use ModuleCustomTrait;
         
