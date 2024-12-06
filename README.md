@@ -21,6 +21,8 @@ This Readme contains the following main sections
 ## Description
 
 This custom module changes the default position of the watermark image. This can be altered to you needs with simple edits to the MyImageFactory code.
+webtrees 2.2 has improved the way images and watermarks are scaled. Watermarks now scale to fit the image size. The position can be set to top, center or bottom.
+To position watermarks left or right use white space in the watermark image to pad the text or symbol left or right.
 This module was created with the generous input from Greg Roach [fisharebest](https://github.com/fisharebest/webtrees).
 
 <a name="requirements"></a>
