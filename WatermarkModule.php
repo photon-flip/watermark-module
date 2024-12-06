@@ -17,8 +17,6 @@ use Fisharebest\Webtrees\View;
 use Fisharebest\Webtrees\Module\AbstractModule;
 use Fisharebest\Webtrees\Module\ModuleCustomInterface;
 use Fisharebest\Webtrees\Module\ModuleCustomTrait;
-use Fisharebest\Webtrees\Module\ModuleConfigTrait;
-use Fisharebest\Webtrees\Module\ModuleConfigInterface;
 use Fisharebest\Webtrees\Factories\MyImageFactory;
 use Fisharebest\Webtrees\Registry;
 use Fisharebest\Webtrees\FlashMessages;
@@ -31,9 +29,7 @@ use Psr\Http\Message\ServerRequestInterface;
 class WatermarkModule extends AbstractModule implements ModuleCustomInterface, ModuleConfigInterface
 {
     use ModuleCustomTrait;
-    use ModuleConfigTrait;
-    
-    
+        
     /**
      * How should this module be identified in the control panel, etc.?
      *
