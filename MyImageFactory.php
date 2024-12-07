@@ -27,7 +27,7 @@ use Intervention\Image\Interfaces\ImageInterface;
  */
 class MyImageFactory extends ImageFactory
 {
-    protected const string WATERMARK_FILE = '/resources/img/my-watermark.png';
+    protected const string WATERMARK_FILE = '/resources/img/watermark.png';
 
     /**
      * Create a watermark image, perhaps specific to a media-file.
