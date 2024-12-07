@@ -49,7 +49,7 @@ This section documents installation instructions for this module.
 ## Customization
 
 The default instalation contains default webtrees watermark image, some sample images and a Photshop PSD template image as a basis for your own personalization.
-Simply modify and saveas with the file name 'my-watermark.png' of type .png
+Simply modify and saveas with the file name 'watermark.png' of type .png
 The position of the watermark can be changed with simple modifications to code in the 'webtrees/modules_v4/watermark-module/MyWatermarkFactory.php'
 On line 47 'return $image->place(element: $watermark, position: 'bottom');' change the position with key words: 'center' or 'top' or, 'bottom'
 
