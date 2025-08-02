@@ -13,6 +13,7 @@ require __DIR__ . '/MyImageFactory.php';
 
 use Fisharebest\Localization\Translation;
 use Fisharebest\Webtrees\I18N;
+use Fisharebest\Webtrees\Services\PhpService;
 use Fisharebest\Webtrees\View;
 use Fisharebest\Webtrees\Module\AbstractModule;
 use Fisharebest\Webtrees\Module\ModuleCustomInterface;
@@ -83,7 +84,7 @@ class WatermarkModule extends AbstractModule implements ModuleCustomInterface
      */
     public function boot(): void
     {
-        Registry::ImageFactory(new MyImageFactory());
+        Registry::ImageFactory(new MyImageFactory(new PhpService));
         
         
     }
