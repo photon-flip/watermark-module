@@ -1,4 +1,4 @@
-# webtrees module 2.23 - reposition-webtrees-watermark
+# webtrees module 2.2.3 - reposition-webtrees-watermark
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 ![webtrees major version](https://img.shields.io/badge/webtrees-v2.2.3-green)
@@ -21,7 +21,7 @@ This Readme contains the following main sections
 ## Description
 
 This custom module changes the default position of the watermark image. This can be altered to your needs with simple edits to the MyImageFactory code.
-webtrees 2.23 has improved the way images and watermarks are scaled. Watermarks now scale to fit the image size. The position can be set to top, center or bottom.
+webtrees 2.2 improved the way images and watermarks are scaled. Watermarks now scale to fit the image size. The position can be set to top, center or bottom.
 To position watermarks left or right use white space in the watermark image to pad the text or symbol left or right.
 This module was created with the generous input from Greg Roach [fisharebest](https://github.com/fisharebest/webtrees).
 
