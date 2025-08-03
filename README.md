@@ -57,7 +57,7 @@ On line 47 'return $image->place(element: $watermark, position: 'bottom');' chan
 <a name="persistant cache"></a>
 ## Persistant Cache
 
-The final watermarked images are single combined images and are stores in the webtrees data/cache.
+The final watermarked images are single combined images and are storeed in the webtrees data/cache.
 After installing or updating the module or code, images can take some time to be used instead of those previously cached. 
 This can be sped up by clearing the data/cache.
 Go to: Control panel/Clean up data folder/cache and  click the bin icon.
