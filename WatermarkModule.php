@@ -60,7 +60,16 @@ class WatermarkModule extends AbstractModule implements ModuleCustomInterface
     {
         return 'MurrayJ';
     }
-    
+
+     public const CUSTOM_VERSION = '2.2.3';
+    /**
+     * {@inheritDoc}
+     * @see \Fisharebest\Webtrees\Module\ModuleCustomInterface::customModuleVersion()
+     */
+    public function customModuleVersion(): string
+    {
+        return self::CUSTOM_VERSION;
+    }
     
     
     /**
@@ -92,3 +101,4 @@ class WatermarkModule extends AbstractModule implements ModuleCustomInterface
     
 
 }
+
