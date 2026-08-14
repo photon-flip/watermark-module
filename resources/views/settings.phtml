@@ -1,0 +1,55 @@
+<?php
+
+declare(strict_types=1);
+
+use Fisharebest\Webtrees\Http\RequestHandlers\ControlPanel;
+use Fisharebest\Webtrees\I18N;
+
+/** @var string $title */
+/** @var string $description */
+/** @var array<string,string> $watermarks */
+/** @var array<string,string> $watermark_previews */
+/** @var array<string,string> $positions */
+/** @var string $selected_watermark */
+/** @var string $selected_position */
+?>
+
+<?= view('components/breadcrumbs', [
+    'links' => [route(ControlPanel::class) => I18N::translate('Control panel'), $title],
+]) ?>
+
+<h1><?= e($title) ?></h1>
+<p><?= e($description) ?></p>
+
+<form method="post">
+    <?= csrf_field() ?>
+
+    <fieldset class="mb-3">
+        <legend class="form-label"><?= I18N::translate('Watermark image') ?></legend>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <?php foreach ($watermarks as $filename => $label): ?>
+                <div class="col">
+                    <label class="card h-100 p-2" for="watermark-<?= e($filename) ?>">
+                        <img class="card-img-top border mb-2" src="<?= e($watermark_previews[$filename]) ?>" alt="<?= e(I18N::translate($label)) ?>">
+                        <span class="form-check">
+                            <input class="form-check-input" id="watermark-<?= e($filename) ?>" name="watermark" type="radio" value="<?= e($filename) ?>" <?= $filename === $selected_watermark ? 'checked' : '' ?> required>
+                            <span class="form-check-label"><?= e(I18N::translate($label)) ?></span>
+                        </span>
+                    </label>
+                </div>
+            <?php endforeach ?>
+        </div>
+        <div class="form-text"><?= I18N::translate('Choose exactly one image. Replace watermark.png in the module folder to use your own image.') ?></div>
+    </fieldset>
+
+    <div class="mb-3">
+        <label class="form-label" for="position"><?= I18N::translate('Position') ?></label>
+        <select class="form-select" id="position" name="position">
+            <?php foreach ($positions as $position => $label): ?>
+                <option value="<?= e($position) ?>" <?= $position === $selected_position ? 'selected' : '' ?>><?= e(I18N::translate($label)) ?></option>
+            <?php endforeach ?>
+        </select>
+    </div>
+
+    <button class="btn btn-primary" type="submit"><?= I18N::translate('Save') ?></button>
+</form>
