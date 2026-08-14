@@ -26,7 +26,11 @@ The configuration page shows previews of the three included PNG images. Choose e
 
 Choose any of the nine standard positions: top, centre, bottom, left, right, or a corner. To use your own image, replace `resources/img/watermark.png` in the module folder and select **Watermark** in the configuration page.
 
-webtrees caches generated media images. After changing the image or its position, clear the webtrees data-folder cache in the control panel and refresh the browser cache if the previous image is still shown.
+### Important: cached media images
+
+webtrees stores generated watermarked media images in its data-folder cache for a long time. Therefore, do not expect a changed watermark image or position to be visible immediately.
+
+After changing the configuration, clear the webtrees data-folder cache in the control panel. Then refresh the browser cache or use a private browser window. If the old image is still displayed, clear the PHP OPcache or restart PHP-FPM/the web server. New requests will then generate media images with the selected watermark and position.
 
 ## Translation
 

@@ -34,7 +34,7 @@ class WatermarkModule extends AbstractModule implements ModuleConfigInterface, M
     use ModuleConfigTrait;
     use ModuleCustomTrait;
 
-    public const CUSTOM_VERSION = '2.2.5';
+    public const CUSTOM_VERSION = '2.2.6.0';
 
     /** @var array<string,string> */
     private const WATERMARKS = [
