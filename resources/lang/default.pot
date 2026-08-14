@@ -28,7 +28,7 @@ msgstr ""
 msgid "Watermark image"
 msgstr ""
 
-msgid "Choose exactly one image. Replace watermark.png in the module folder to use your own image."
+msgid "Choose a watermark."
 msgstr ""
 
 msgid "Position"

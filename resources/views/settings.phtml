@@ -39,17 +39,17 @@ use Fisharebest\Webtrees\I18N;
                 </div>
             <?php endforeach ?>
         </div>
-        <div class="form-text"><?= I18N::translate('Choose exactly one image. Replace watermark.png in the module folder to use your own image.') ?></div>
+        <div class="form-text"><?= I18N::translate('Choose a watermark.') ?></div>
     </fieldset>
 
-    <div class="mb-3">
-        <label class="form-label" for="position"><?= I18N::translate('Position') ?></label>
+    <fieldset class="mb-3">
+        <legend class="form-label"><?= I18N::translate('Position') ?></legend>
         <select class="form-select" id="position" name="position">
             <?php foreach ($positions as $position => $label): ?>
                 <option value="<?= e($position) ?>" <?= $position === $selected_position ? 'selected' : '' ?>><?= e(I18N::translate($label)) ?></option>
             <?php endforeach ?>
         </select>
-    </div>
+    </fieldset>
 
     <button class="btn btn-primary" type="submit"><?= I18N::translate('Save') ?></button>
 </form>

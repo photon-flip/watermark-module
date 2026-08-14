@@ -16,7 +16,7 @@ msgid "Watermark Module"
 msgstr "Wasserzeichen-Modul"
 
 msgid "Choose the watermark image and its position on media images."
-msgstr "Wählen Sie das Wasserzeichenbild und seine Position auf Medienbildern aus."
+msgstr "Wählen Sie das Wasserzeichen und seine Position auf Medienbildern aus."
 
 msgid "Watermark"
 msgstr "Wasserzeichen"
@@ -33,8 +33,8 @@ msgstr "Die ausgewählten Wasserzeichen-Einstellungen sind ungültig."
 msgid "Watermark image"
 msgstr "Wasserzeichenbild"
 
-msgid "Choose exactly one image. Replace watermark.png in the module folder to use your own image."
-msgstr "Wählen Sie genau ein Bild aus. Ersetzen Sie watermark.png im Modulordner, um ein eigenes Bild zu verwenden."
+msgid "Choose a watermark."
+msgstr "Wählen Sie ein Wasserzeichen aus."
 
 msgid "Position"
 msgstr "Position"

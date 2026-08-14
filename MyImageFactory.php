@@ -19,7 +19,7 @@ class MyImageFactory extends ImageFactory
         parent::__construct($phpService);
     }
 
-    public function createWatermark(int $width, int $height, MediaFile $mediaFile): ImageInterface
+    public function createWatermark(int $width, int $height, MediaFile $media_file): ImageInterface
     {
         return $this->imageManager()
             ->read(input: __DIR__ . '/resources/img/' . $this->watermarkFile)
