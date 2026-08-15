@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: watermark-module 2.2.6.0\n"
+"Report-Msgid-Bugs-To: https://github.com/photon-flip/watermark-module/issues\n"
+"POT-Creation-Date: 2026-08-14 00:00+0000\n"
+"PO-Revision-Date: 2026-08-14 00:00+0000\n"
+"Last-Translator: Hartenthaler\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Watermark Module"
+msgstr "Wasserzeichen-Modul"
+
+msgid "Choose the watermark image and its position on media images."
+msgstr "Wählen Sie das Wasserzeichen und seine Position auf Medienbildern aus."
+
+msgid "Watermark"
+msgstr "Wasserzeichen"
+
+msgid "Default webtrees watermark"
+msgstr "Standard-Wasserzeichen von webtrees"
+
+msgid "Copyright watermark"
+msgstr "Urheberrechts-Wasserzeichen"
+
+msgid "The selected watermark settings are invalid."
+msgstr "Die ausgewählten Wasserzeichen-Einstellungen sind ungültig."
+
+msgid "Watermark image"
+msgstr "Wasserzeichenbild"
+
+msgid "Choose a watermark."
+msgstr "Wählen Sie ein Wasserzeichen aus."
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Top left"
+msgstr "Oben links"
+
+msgid "Top"
+msgstr "Oben"
+
+msgid "Top right"
+msgstr "Oben rechts"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Center"
+msgstr "Mitte"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Bottom left"
+msgstr "Unten links"
+
+msgid "Bottom"
+msgstr "Unten"
+
+msgid "Bottom right"
+msgstr "Unten rechts"
